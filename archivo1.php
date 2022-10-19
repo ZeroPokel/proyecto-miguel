@@ -1,9 +1,10 @@
 <?php
 
     if($_POST){
-        $nombre = $_POST['nombre'];
         $apellido = $_POST['apellido'];
-        echo "Hola ".$nombre ." ".$apellido;
+        echo "Saludos ".$apellido;
+        $nombre = $_POST['nombre'];
+        echo "Tu nombre es: ". $nombre . "?";
     }
 
 ?>
